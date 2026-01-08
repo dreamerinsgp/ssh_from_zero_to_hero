@@ -1,0 +1,13 @@
+[package]
+name = "ssh_stage4_server_authentication"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+clap = {version = "4.0", features = ["derive"]}
+rand = "0.8"
+sha2 = "0.10"
+num-bigint = { version = "0.4", features = ["rand"] }
+num-traits = "0.2"
+
